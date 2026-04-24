@@ -1,0 +1,177 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+    /* shared style */
+ 
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.logo h2{
+  font-size: 45px;
+  font-weight: 900;
+}
+.color-orange{
+color: #FD6E0A;
+}
+.btn{
+  background-color: #FD6E0A;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.section-heading{
+  max-width: 827px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-heading h2{
+  font-size: 35px;
+}
+.section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+}
+
+    /* main style */
+header{
+    background-color: #FFF8F3;
+    background: url("../img/developer.png") , url("../img/header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+nav{
+  width: 71%;
+  max-width: 1440px;
+  /* border: 1px solid red; */
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu{
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  align-items: center;
+}
+nav .menu a{
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+}
+
+#baner{
+  /* border: 5px solid red; */
+  margin: 47px 38px 0px 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#baner .baner-content{
+  max-width: 585px;
+}
+
+#baner .baner-content h2{
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+#baner .baner-content h1{
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+#baner .baner-content p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#baner .baner-img img{
+  max-width: 585px;
+  vertical-align: middle;
+}
+
+#about{
+  padding-top: 130px;
+display:flex;
+}
+#about .about-container{
+  /* width: 71%; */
+  max-width: 1140px;
+  margin:0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 130px 156px;
+}
+
+#about .about-info{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info .info-card p{
+
+ font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+}
+.about-info .info-card h4{
+  font-size: 20px;
+}
+
+#skills{
+  padding-top: 130px;
+
+}
+
+#skills .skills-container{
+  width: 71%;
+ max-width:1140px;
+ margin:0 auto;
+
+}
+
+ #skills .skills-container.skill-box{
+  display: flex;
+  gap: 24px;
+ }
+ .skill-box .skill-card{
+  padding: 30px;
+  max-width: 266px;
+  box-shadow: 0 6px 50px 0 #000000;
+ }
+
+ .skill-card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+ }
+ .skill-card h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+ }
+ .skill-card p{
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+ }
